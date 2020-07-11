@@ -39,7 +39,7 @@ router.get("/logout", (req, res) => {
     if (err) {
       res.send("unable to logout");
     } else {
-      res.semd("Logged out!");
+      res.send("Logged out!");
     }
   });
 });
